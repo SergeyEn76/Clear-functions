@@ -8,7 +8,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --coverage",
-    "build": "babel -d ./dist ./js",
+    "build": "babel -d ./dist ./src/js",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
   },
