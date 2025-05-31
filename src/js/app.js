@@ -1,4 +1,4 @@
- import healthStatus from './basic';
+ import {healthStatus} from './basic';
 
  console.log('worked');
 
