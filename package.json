@@ -8,7 +8,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --coverage",
-    "build": "babel -d ./dist ./src/js",
+    "build": "babel -d ./dist ./src",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
   },
@@ -16,6 +16,7 @@
     "core-js": "^3.42.0",
     "eslint": "^9.27.0"
   },
+  "types": "module",
   "devDependencies": {
     "@babel/cli": "^7.27.2",
     "@babel/core": "^7.27.1",

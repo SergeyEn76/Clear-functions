@@ -1,4 +1,4 @@
-import {healthStatus} from '../src/js/basic.js';
+import { healthStatus } from '../src/js/basic.js';
 test('check health more 90', () => {
     const result = healthStatus({name: 'Stone', health: 90});
     expect(result).toBe('healthy');
